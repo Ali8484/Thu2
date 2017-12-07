@@ -1,0 +1,3 @@
+rootProject.name = 'thu2'
+
+include ':app'
