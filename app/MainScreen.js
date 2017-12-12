@@ -14,8 +14,11 @@ import {AppRegistry , Text , View , Button} from 'react-native';
             onPress={() => navigate('Chat')}
             title="Chat with Lucy"
           />
+          <Button 
+          onPress={() => navigate('sec')}
+          title="To Second" />
         </View>
       );
     }
   }
-  AppRegistry.registerComponent('HomeScreen', ()=> HomeScreen);
+ 

@@ -3,7 +3,7 @@ import {AppRegistry , Text , View} from 'react-native';
 
 export default class ChatScreen extends React.Component {
     static navigationOptions = {
-      title: 'Chat with Lucy',
+      title: 'Chat ',
     };
     render() {
       return (
@@ -13,4 +13,4 @@ export default class ChatScreen extends React.Component {
       );
     }
   }
-  AppRegistry.registerComponent('HomeScreen', ()=> HomeScreen);
+  
